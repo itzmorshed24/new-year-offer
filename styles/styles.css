@@ -144,3 +144,43 @@ section{
 }
 
 /* End of Hotel Joingin Section Desing */
+
+
+/* Started Offer section desing here */
+.offer-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 130px;
+}
+.best-offer1{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ff0000;
+    margin-bottom: 25px;
+}
+.best-offer h3{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+.best-offer p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.new-year1 h2{
+    font-size: 48px;
+    color: #ff0000;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.new-year1 p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+/* End of offer design section */
