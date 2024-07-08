@@ -12,7 +12,7 @@ body{
     text-align: center;
 }
 section{
-    margin-bottom: 120px;
+    margin-top: 120px;
 }
 /* Banner Image design */
 .banner-image{
@@ -44,6 +44,9 @@ section{
     padding: 200px;
 }
 /* Discount section styles */
+.discount-container{
+    margin-bottom: 120px;
+}
 .discount{
     font-size: 75px;
     color:#ff0000;
@@ -109,5 +112,35 @@ section{
     padding: 10px 20px;
     border-radius: 10px;
     border-style: none;
+    text-transform: uppercase;
 }
 /* End of party container Section design */
+
+.joining-container{
+    margin-top:120px!important;
+    margin-bottom: 120px !important;
+    width: 1320px;
+    height: 420px;
+    margin: 0 auto;
+    background-image: linear-gradient(#ff00001f, #ff000000);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.joining-title{
+    padding-top: 100px;
+}
+.joining-container h4{
+    font-size: 32px;
+    font-weight: 650;
+    text-align: center;
+    line-height: 56px;
+}
+.joining-container span{
+    color: #ff0000;
+}
+.joining-container button{
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+/* End of Hotel Joingin Section Desing */
