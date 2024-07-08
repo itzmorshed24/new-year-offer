@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Shared Style */
+body{
+    font-family: "Inter", sans-serif;
+}
+.text-align{
+    text-align: center;
+}
+section{
+    margin-bottom: 120px;
+}
+/* Banner Image design */
+.banner-image{
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 1320px;
+    margin: 50px auto;       
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+}
+.new-year{
+    font-size: 33px;
+    margin-bottom:25px;
+    color: #fff;
+    font-family: "Merriweather", serif;
+
+}
+.celebration{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 80px;
+    color:#fff;
+    font-family: "Merriweather", serif;
+}
+.banner-text{
+    padding: 200px;
+}
+/* Discount section styles */
+.discount{
+    font-size: 75px;
+    color:#ff0000;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+.catagory p{
+    text-align: center;
+    color: #ff0000;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 450;
+    margin-top: 48px;
+}
+.catagory h3{
+    font-family: inter;
+    font-size:48px;
+    text-align: center;
+    margin-top: 16px;
+}
+.discount-banner{
+    height: 500px;
+    width: 803px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+/* End of Discount offer section design */
+
+/* Start Party Section Design */
+.party-container{
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: overlay;
+    height: 600px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.party-container h3{
+    color: #fff;
+    padding: 126px 0 0 126px;
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    line-height: 90px;
+}
+.party-container p{
+    color:#fff;
+    font-size: 18px;
+    padding-left: 126px;
+    width:700px;
+    line-height: 28px;
+    margin-bottom: 58px;
+}
+.join{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 158px;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+/* End of party container Section design */
