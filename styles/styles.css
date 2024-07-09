@@ -159,7 +159,7 @@ section{
 }
 .best-offer1{
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     color: #ff0000;
     margin-bottom: 25px;
 }
@@ -184,3 +184,57 @@ section{
     margin-bottom: 20px;
 }
 /* End of offer design section */
+.holyday-container{
+    width: 1320px;
+    height: 987px;
+    margin: 0 auto;
+    border: 5px solid red;
+    position: relative;
+}
+.holiday-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holiday-content h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.holiday-content h2{
+    font-size: 72px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 28px;
+}
+.holiday-content span{
+    color: #ff0000;
+}
+.holiday-content p{
+    width: 950px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#070211;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    border-radius: 10px;
+    background-color: #ff0000;
+    position: absolute;
+    top:77%;
+}
+.giftbox{
+    position: absolute;
+    z-index: 1;
+} 
+.discount{
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 65%;
+}
+/* End of Holidy Section Area Design */
