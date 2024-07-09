@@ -240,6 +240,85 @@ section{
 /* End of Holidy Section Area Design */
 
 
+/* Star Here Portolio Desing */
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+}
+.portfolio-content h4{
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.portfolio-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.portfolio-content p{
+    width: 896px;
+    color: #070211;
+    margin-bottom: 25px;
+}
+.portofolio-images img{
+    padding: 5px;
+}
+/* End of Portofolio Section Desing */
+
+.subscribe-container{
+    width: 1320px;
+    height: 516px;
+    margin: 0 auto;
+    background-color: #ff00000d;
+    padding-top: 50px;
+    border-radius: 15px;
+    margin-bottom: 130px;
+}
+.subscribe-content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subscribe-content h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 48px;
+}
+.subscribe-content p{
+    text-align: center;
+    color: #070211;
+    margin-top: 22px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content:center ;
+    padding: 25px;
+    border-radius: 5px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 16px;
+    width: 250px;
+    padding: 15px;
+  }
+  
+  button{
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 15px 0px 0 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #ff0000;
+  }
+
+  /* End of Subscribe Section Design */
 
 
 .footer-container{
